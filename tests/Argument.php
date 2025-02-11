@@ -13,7 +13,7 @@ class Argument
      */
     public $aProperty;
 
-    public function __construct(string $aProperty = null)
+    public function __construct(?string $aProperty = null)
     {
         $this->aProperty = $aProperty;
     }

@@ -44,7 +44,7 @@ class Target
         return 'Hello World';
     }
 
-    public function someMethodWithDifferentlyTypedArgs(string $arg1 = null, int $arg2 = null)
+    public function someMethodWithDifferentlyTypedArgs(?string $arg1 = null, ?int $arg2 = null)
     {
         $this->calls[] = new MethodCall('someMethodWithDifferentlyTypedArgs', func_get_args());
         return 'Hello World';

@@ -1,5 +1,5 @@
 {
-    "name": "felixfbecker/advanced-json-rpc",
+    "name": "danog/advanced-json-rpc",
     "description": "A more advanced JSONRPC implementation",
     "type": "library",
     "license": "ISC",
@@ -7,6 +7,10 @@
         {
             "name": "Felix Becker",
             "email": "felix.b@outlook.com"
+        },
+        {
+            "name": "Daniil Gentili",
+            "email": "daniil@daniil.it"
         }
     ],
     "autoload": {
@@ -18,6 +22,9 @@
         "psr-4": {
             "AdvancedJsonRpc\\Tests\\": "tests/"
         }
+    },
+    "conflict": {
+        "felixfbecker/php-advanced-json-rpc": "*"
     },
     "require": {
         "php": "^7.1 || ^8.0",
