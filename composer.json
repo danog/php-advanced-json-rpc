@@ -24,7 +24,7 @@
         }
     },
     "replace": {
-        "felixfbecker/php-advanced-json-rpc": "*"
+        "felixfbecker/php-advanced-json-rpc": "^3"
     },
     "require": {
         "php": ">=8.1",
