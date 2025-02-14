@@ -1,7 +1,6 @@
 # Advanced JSONRPC
 
 [![Version](https://img.shields.io/packagist/v/danog/advanced-json-rpc.svg)](https://packagist.org/packages/danog/advanced-json-rpc)
-[![Build Status](https://travis-ci.org/danog/php-advanced-json-rpc.svg?branch=master)](https://travis-ci.org/danog/php-advanced-json-rpc)
 [![Coverage](https://codecov.io/gh/danog/php-advanced-json-rpc/branch/master/graph/badge.svg)](https://codecov.io/gh/danog/php-advanced-json-rpc)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 [![License](https://img.shields.io/packagist/l/danog/advanced-json-rpc.svg)](https://github.com/danog/php-advanced-json-rpc/blob/master/LICENSE)
