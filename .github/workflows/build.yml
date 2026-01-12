@@ -15,6 +15,7 @@ jobs:
           - 8.2
           - 8.3
           - 8.4
+          - 8.5
         deps:
           - lowest
           - highest
@@ -24,7 +25,7 @@ jobs:
             composer-options: --ignore-platform-reqs
         exclude:
           # that config currently breaks as older PHPUnit cannot generate coverage on PHP 8
-          - php: 8
+          - php: 8.1
             deps: lowest
 
     runs-on: ubuntu-latest
