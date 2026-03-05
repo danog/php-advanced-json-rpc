@@ -8,7 +8,7 @@
     "@commitlint/cli": "^19.7.1",
     "@commitlint/config-conventional": "^7.1.2",
     "husky": "^0.14.3",
-    "semantic-release": "^19.0.3"
+    "semantic-release": "^25.0.3"
   },
   "commitlint": {
     "extends": [
