@@ -28,7 +28,7 @@
     },
     "require": {
         "php": ">=8.1",
-        "netresearch/jsonmapper": "^5",
+        "netresearch/jsonmapper": "^5 || ^6",
         "phpdocumentor/reflection-docblock": "^4.3.4 || ^5.0.0 || ^6"
     },
     "require-dev": {
